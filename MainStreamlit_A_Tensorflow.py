@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 
 # Load the pre-trained model
-model_path = r'C:\Users\stewa\Downloads\model_mobilenet_tubes.h5'
+model_path = r'BestModel_VGG-16_Tensorflow.h5'
 model = load_model(model_path)
 
 # Define class names
